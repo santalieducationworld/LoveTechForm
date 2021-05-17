@@ -1,0 +1,52 @@
+/*body section*/
+body{
+ background-image: linear-gradient(120deg,chartreuse,red,yellow,green,blue,orange,tomato,lightseagreen);
+}
+.signup{
+width: 350px;
+margin: auto;
+margin-top: 50px;
+padding: 5px;
+background-image: url("my-life-animation.gif");
+background-size: cover;
+}
+form{
+	padding: 10px;
+	font-family: arial;
+	border: 1px dotted white;
+}
+h2{
+	background-image: linear-gradient(80deg,orange,white,green);
+	text-align: center;
+	background-color: dodgerblue;
+	color:blue;
+	font-size: 35px;
+	border-radius: 5px;
+}
+input{
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	border: none;
+}
+input[type=text],input[type=email],input[type=number],input[type=password]{
+	width: 90%;
+}
+
+input[type=submit]{
+	width: 95%;
+    background-image: linear-gradient(80deg,orange,white,green);
+	cursor:pointer;
+	font-size: 18px;
+	font-weight: bold;
+	color:blue;
+}
+input[type=submit]:hover{
+	background:yellow;
+}
+select{
+	padding: 10px; 
+	width:32%;
+	border-radius: 5px;
+
+}
