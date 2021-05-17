@@ -50,3 +50,10 @@ select{
 	border-radius: 5px;
 
 }
+
+/*Button*/
+button a {
+	background: white
+	background-size: cover;
+	color:red;
+}
