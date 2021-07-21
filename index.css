@@ -39,7 +39,7 @@ input[type=submit]{
 	cursor:pointer;
 	font-size: 18px;
 	font-weight: bold;
-	color:blue;
+	color:white;
 }
 input[type=submit]:hover{
 	background:yellow;
