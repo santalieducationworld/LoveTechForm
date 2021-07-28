@@ -1,59 +1,53 @@
 /*body section*/
 body{
- background-image: linear-gradient(120deg,chartreuse,red,yellow,green,blue,orange,tomato,lightseagreen);
+ background-image: linear-gradient(140deg,red,yellow,green,tomato,blue);
 }
+
+/* Starting of Css for SingUp form*/
 .signup{
-width: 350px;
-margin: auto;
-margin-top: 50px;
-padding: 10px;
-background-image: url("Anondk.jpeg");
-background-size: cover;
+	width: 326px;
+	margin:auto;
+	background-image: linear-gradient(160deg,red,yellow,green);
+	background-size: cover;
+	margin-top:50px;
+	padding:10px;
 }
 form{
-	padding: 10px;
-	font-family: arial;
-	border: 1px dotted white;
+	padding:10px;
+	font-family:arial;
+	border:1px dotted white;
 }
 h2{
-	background-image: linear-gradient(120deg,red,yellow,green);
-	text-align: center;
-	background-color: dodgerblue;
+	text-align:center;
+	background-image:linear-gradient(120deg,green,yellow,red);
 	color:blue;
-	font-size: 35px;
-	border-radius: 5px;
+	padding:10px;
+	border-radius:10px;
 }
 input{
-	padding: 10px;
-	margin: 5px;
-	border-radius: 5px;
-	border: none;
+	padding:10px;
+	margin:5px;
+	border-radius:5px;
+	border:none;
 }
-input[type=text],input[type=email],input[type=number],input[type=password]{
+input[type=text],input[type=email], input[type=number], input[type=password]{
 	width: 90%;
 }
-
 input[type=submit]{
 	width: 95%;
-    background-image: linear-gradient(120deg,green,yellow,red);
+	background-image: linear-gradient(120deg,red,yellow,green);
 	cursor:pointer;
-	font-size: 18px;
-	font-weight: bold;
+	font-size:18px;
+	font-weight:bold;
 	color:white;
 }
-input[type=submit]:hover{
-	background:yellow;
+input[type=submit] : hover{
+	backgrou
 }
 select{
-	padding: 10px; 
+	padding:10px;
 	width:32%;
-	border-radius: 5px;
-
+	border-radius:5px;
 }
 
-/*Button*/
-button a {
-	background: white
-	background-size: cover;
-	color:red;
-}
+/*Ending of CSS for SignUp form*/
